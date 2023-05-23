@@ -1,0 +1,13 @@
+Terminal command for allure reports
+
+To generate the report from existing Allure results you can use the following command:
+    allure generate <directory-with-results>
+The report will be generated to allure-report folder. You can change the destination folder using -o flag:
+
+    allure generate <directory-with-results> -o <directory-with-report>
+When the report is generated you can open it in your default system browser. Simply run
+
+    allure open <directory-with-report>
+
+generate and open
+    allure generate ./allure-results --clean && allure open
