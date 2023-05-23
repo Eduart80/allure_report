@@ -1,3 +1,0 @@
-{
-  "url": "https://sell.manheim.man-uat.com/ui/inventory"
-}
