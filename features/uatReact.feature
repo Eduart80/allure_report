@@ -1,5 +1,7 @@
 Feature: React | All my inventory page
 
+
+
     Scenario: Read the page header
 
     Given the url https://sell.manheim.man-uat.com/ui/inventory
