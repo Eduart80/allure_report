@@ -6,7 +6,7 @@ Feature: React | All my inventory page
 
     Given the url ....
    # And i click sign in
-    Then i enter username ascott4 and password demo
+    Then i enter username .... and password ....
     And select sellerNumber 4998585
     When on page i read the page header
     Then verify text should read INVENTORY
