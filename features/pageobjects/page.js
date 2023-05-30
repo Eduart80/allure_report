@@ -25,10 +25,10 @@ export default class Page {
 
   waitPageLoads = async () => {
     await browser.wauitUntil(async () => {
-      return (
-        await browser.execute(() => document.readyState === "complete"),
+      console.log('Hyra....');
+        await browser.execute(() => 
+        document.readyState === "complete"),
         { timeout: 60000, timeoutMsg: "timesup 60 sec" }
-      );
     });
   };
 }

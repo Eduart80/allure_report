@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/Component.css"/>
     <title>Document</title>
 </head>
 <body>
-    <div id="content" class="large-12 columns">
-        <div class="row">
-  <div class="large-6 small-12 columns large-centered">
-    <h3>Inputs</h3>
-    <div class="example">
-        <p>Number</p>
-        <input title="input" id="ad" type="number"/>
+      <div id="root">
+        <h1><button onClick="reset()">WebdriverIO</button> Component Testing</h1>
+        <div className="card">
+            <button type="button" onClick='addOne()'>Enter</button>
+            <p>Edit <span id="inside"></span> times and save to test data</p>
+        </div>
+        <p className="read-the-docs">
+            Click on the WebdriverIO to restart
+        </p>
     </div>
-  </div>
-</div>
-
-      </div>
+  <script type="text/javascript" src="../src/Component.js" ></script>
 </body>
 </html>

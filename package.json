@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "allure-commandline": "^2.22.0",
-    "chai": "^4.3.7"
+    "chai": "^4.3.7",
+    "dotenv": "^16.0.3"
   }
 }

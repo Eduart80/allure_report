@@ -9,5 +9,19 @@ When the report is generated you can open it in your default system browser. Sim
 
     allure open <directory-with-report>
 
-generate and open
+Generate and Open
     allure generate ./allure-results --clean && allure open
+
+
+Dot env 
+-----------------
+As early as possible in your application, import and configure dotenv:
+
+require('dotenv').config()
+console.log(process.env) // remove this after you've confirmed it is working
+
+.. or using ES6?
+
+import * as dotenv from 'dotenv' // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
+dotenv.config()
+import express from 'express'
