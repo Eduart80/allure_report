@@ -9,10 +9,10 @@
 </head>
 <body>
       <div id="root">
-        <h1><button onClick="reset()">WebdriverIO</button> Component Testing</h1>
+        <h1><button id="btnReset" onClick="reset()">WebdriverIO</button> Component Testing</h1>
         <div className="card">
-            <button type="button" onClick='addOne()'>Enter</button>
-            <p>Edit <span id="inside"></span> times and save to test data</p>
+            <button type="button" id="butnClick" onClick='addOne()'>Click me</button>
+            <p>Clicked <span id="inside"></span> times and create test data</p>
         </div>
         <p className="read-the-docs">
             Click on the WebdriverIO to restart
