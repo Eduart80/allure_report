@@ -17,7 +17,8 @@
 # Scenario Outline: Scenario Outline name 2 to 5
 #    # Given Start to type your <name> step here
 #     And Start to type your <something> step here
-#     Then Start to type your Then step here
+#     When Start to type your 
+#     Then step here
 
 #     Examples:
 #         | name     | somthing  | 

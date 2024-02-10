@@ -1,9 +1,7 @@
 
 
 class mainPage {
-    // open(path){
-    //     return browser.url(path)
-    // }
+   
 
     get buttonClick(){
         return $('#butnClick')

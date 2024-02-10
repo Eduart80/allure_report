@@ -27,10 +27,6 @@ a:hover {
 
 body {
     margin: 0;
-    display: flex;
-    place-items: center;
-    min-width: 320px;
-    min-height: 100vh;
 }
 
 h1 {
@@ -121,3 +117,6 @@ button:focus-visible {
 #inside{
     color: #fb8c4c;
 }
+.sample-select {
+ text-align: center;
+}    
